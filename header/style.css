@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #4A9782;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #c5c4c0;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header ul li {
+    font-size: 18px;
+    border: 2px solid transparent;
+    padding: 3px 10px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+header ul li:hover {
+    border: 2px solid;
+}
+
+header ul li a {
+    color: black;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.user-section {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    color: black;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: transparent;
+    color: black;
+}
+
+/* Form Style */
+.form-box {
+    display: none;
+    /* js দিয়ে control হবে */
+    background: #fff;
+    width: 300px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-box h2 {
+    margin-bottom: 15px;
+}
+
+.form-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-box button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.form-box button:hover {
+    background: #218838;
+}
