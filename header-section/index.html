@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">Student MS</div>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#add-student">Add Student</a></li>
+                <li><a href="#view-students">View Students</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="section">
+        <h1>Student Management Dashboard</h1>
+        <p>Welcome to the system. Manage students efficiently.</p>
+        <div class="stats">
+            <div class="stat-card">
+                <h3>Total Students</h3>
+                <p>150</p>
+            </div>
+            <div class="stat-card">
+                <h3>Active Classes</h3>
+                <p>5</p>
+            </div>
+            <div class="stat-card">
+                <h3>Average Grade</h3>
+                <p>85%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Student Section -->
+    <section id="add-student" class="section">
+        <h2>Add New Student</h2>
+        <form action="#" class="student-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter student's name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter age" required>
+
+            <label for="grade">Grade:</label>
+            <select id="grade" required>
+                <option value="">Select Grade</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+            </select>
+
+            <button type="submit">Add Student</button>
+        </form>
+    </section>
+
+    <!-- View Students Section -->
+    <section id="view-students" class="section">
+        <h2>View Students</h2>
+        <input type="text" id="search" class="search-bar" placeholder="Search by name or email...">
+        <table class="student-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Grade</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Sample Data: Replace with dynamic content later -->
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>20</td>
+                    <td>A</td>
+                    <td>
+                        <button class="edit-btn">Edit</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>jane@example.com</td>
+                    <td>22</td>
+                    <td>B</td>
+                    <td>
+                        <button class="edit-btn">Edit</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Student Management System. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
