@@ -1,0 +1,14 @@
+/* tag selector */
+p{
+    color: red;
+}
+
+/* Id Selector */
+#tag3{
+    color: rgb(15, 131, 247);
+}
+
+/* class selector */
+.heading2{
+    font-size: 25px;
+}
