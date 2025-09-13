@@ -9,6 +9,10 @@ p{
 }
 
 /* class selector */
-.heading2{
+.heading{
     font-size: 25px;
+}
+
+.italickorbo{
+    font-style: italic;
 }
