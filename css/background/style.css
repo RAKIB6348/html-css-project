@@ -1,0 +1,23 @@
+/* background a color add korte */
+
+.first{
+    background-image: url('abstract-flowing-neon-wave-background_53876-101942.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+
+.second{
+    /* background-color: tomato; */
+    background-image: url(minimalist-banner-background-pastel-colorful-260nw-2470687695.webp);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+/* body{
+    background-color: rgb(162, 7, 134);
+} */
