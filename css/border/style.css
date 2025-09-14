@@ -1,0 +1,9 @@
+.first_div{
+    /* top right bottom left */
+    /* 2 value thakle tahoe first top-bottom and second right-left */
+
+    /* border-style korte */
+    /* border-style: solid dashed none dotted;  */
+    border:5px solid black;
+    border-radius: 20px;
+}
