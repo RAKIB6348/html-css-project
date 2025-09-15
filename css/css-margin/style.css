@@ -1,0 +1,17 @@
+.first{
+    border: 2px solid cadetblue;
+    margin-bottom: 10px;
+}
+
+.second{
+    border: 2px solid black;
+    background-color: aquamarine;
+    width: 400px;
+    /* margin-left: 50px; */
+    margin: auto;
+}
+
+.third{
+    border: 2px solid red;
+    margin-top: 10px;
+}

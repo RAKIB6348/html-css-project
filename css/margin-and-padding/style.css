@@ -1,0 +1,18 @@
+.borders{
+    border: 2px solid black;
+}
+
+.second{
+    width: 400px;
+    background-color: aqua;
+    padding: 50px;
+    margin: 50px auto;
+}
+
+.third{
+    background-color: aquamarine;
+}
+
+.btn{
+    margin-top: 100px;
+}
