@@ -1,0 +1,20 @@
+.one{
+    background-color: chartreuse;
+    width: 400px;
+    height: 200px;
+    border: 20px solid black;
+    padding: 50px;
+
+    /* initial width er baire na jaite box-sizing use kora hoi */
+
+    box-sizing: border-box;
+}
+.two{
+    background-color: aqua;
+    width: 400px;
+    height: 200px;
+    border: 10px solid black;
+    padding: 50px;
+
+    box-sizing: border-box;
+}
