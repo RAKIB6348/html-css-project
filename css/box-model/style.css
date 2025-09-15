@@ -1,0 +1,21 @@
+h1{
+    background-color: aqua;
+}
+
+p{
+    background-color: aquamarine;
+}
+
+.box_model{
+    background-color: tomato;
+    width: 400px;
+
+    padding: 10px; /* 20 + 400 = 420px width jokhon padding diya hoi */
+
+    border: 5px solid black; /* 420 + 5 + 5 =430 */
+    margin: 5px;
+}
+
+.test{
+    margin-left: 20px;
+}
