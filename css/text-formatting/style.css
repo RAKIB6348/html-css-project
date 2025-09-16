@@ -1,0 +1,31 @@
+.text{
+    border: 2px solid black;
+    width: 500px;
+    margin: 50px auto;
+
+    color: black;
+    /* text-align: center; */
+    padding: 10px;
+
+    /*left and right soman vabe align korte */
+    text-align: justify;
+    /* text-decoration: underline; */ /* under line dite*/
+
+    /* text-decoration: line-through; */
+
+    text-transform: capitalize;
+
+    /* word-spacing: 20px; */
+
+    /* letter-spacing: 5px; */
+    /* line-height: 50px; */
+
+    /* white-space: nowrap; */ /* ekoi line korar jonno */
+
+    /* word-wrap: break-word; */
+}
+
+
+h1{
+    text-shadow: 5px 10px 5px dodgerblue; /*left-right and top-bottom blur color */
+}
