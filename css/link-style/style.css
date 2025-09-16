@@ -1,0 +1,36 @@
+.anchor{
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+/*
+Anchor tag stage
+1. a:link
+2. a:visited
+3. a:hover
+4. a:active
+
+*/
+
+.anchor:link{
+    /* background-color: aquamarine; */
+    color: tomato;
+}
+
+.anchor:visited{
+    color: violet;
+}
+
+.anchor:hover{
+    color: black;
+    background-color: tomato;
+    transition: 1s;
+}
+
+
+.anchor:active{
+    color: red;
+}
