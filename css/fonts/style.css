@@ -1,0 +1,24 @@
+.box{
+    border: 1px solid black;
+    width: 500px;
+    margin:50px auto;
+    text-align: center;
+}
+
+/* p{
+    font-size: 30px;
+} */
+
+.box p{
+    font-size: 25px;
+    font-weight: 400; /* 100 - 900*/
+    /* font-style: italic;  */
+    /* oblique same kaj kore */
+    /* font-variant: small-caps; */
+    font-family: monospace;
+}
+
+
+.box h1{
+    font-family: 'Times New Roman';
+}
