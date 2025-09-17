@@ -1,0 +1,15 @@
+img{
+    /* filter: blur(2px); */
+    /* filter: brightness(150%); */
+    /* filter: contrast(70%); */
+
+    /* filter: drop-shadow(10px 10px 5px red); */
+
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(300deg); */
+
+    /* filter: invert(80%); */
+
+    /* filter: opacity(50%); */
+    filter: saturate(120%);
+}
