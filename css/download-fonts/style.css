@@ -1,0 +1,16 @@
+@font-face{
+    font-family: jekononamediyajabe; /* 2ta word diya jabe na */ /* 2ta word diya jabe '' use kore */
+    src: url('fonts/Parisienne-Regular.ttf');
+}
+
+
+.box{
+    width: 600px;
+    border: 2px solid black;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.box h1{
+    font-family: jekononamediyajabe;
+}
