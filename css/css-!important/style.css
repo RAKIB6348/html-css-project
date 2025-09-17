@@ -1,0 +1,15 @@
+/* #helloid{
+    color: blue;
+}
+
+.hellocls{
+    color: red;
+} */
+
+/*
+id er piority sobsomoy beshi
+*/
+
+h1{
+    color: blue !important; /* !important dile kortei hbe */
+}
