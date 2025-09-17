@@ -1,0 +1,12 @@
+#box{
+    border: 2px solid blue;
+    width: 200px;
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+    background-color: green;
+    font-size: 20px;
+
+    /*left-right top-bottom blur color */
+    box-shadow: 5px 10px 15px gray; 
+}
