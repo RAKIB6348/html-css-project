@@ -1,0 +1,11 @@
+.box{
+    width: 500px;
+    height: 300px;
+    border: 2px solid dodgerblue;
+    margin: auto;
+    background-color: aqua;
+    overflow: auto;
+    overflow-x: hidden;
+
+    text-align: center;
+}
