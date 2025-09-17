@@ -1,0 +1,9 @@
+.box{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto;
+    /* background-color: blueviolet; */
+    /* background: linear-gradient(aqua 20%,red 30%,yellow 40%); */
+    background: radial-gradient(circle,green, red, yellow);
+}
