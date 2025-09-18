@@ -1,0 +1,21 @@
+.parent{
+    color: blueviolet;
+}
+
+#link1{
+    color: teal;
+}
+
+#link2{
+    /* color: chartreuse; */
+    color: inherit;
+}
+
+#link3 {
+    /* color: blue; */
+    color: initial;
+}
+
+#link4 {
+    color: chartreuse;
+}
