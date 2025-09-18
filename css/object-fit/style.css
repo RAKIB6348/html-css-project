@@ -1,0 +1,9 @@
+img{
+    border: 2px solid black;
+    margin: 50px auto;
+    width: 500px;
+    height: 200px;
+
+    object-fit: cover;
+    object-position: top;
+}
