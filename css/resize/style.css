@@ -1,0 +1,15 @@
+#box{
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+
+    resize: both; /* kaj korbe jokhon overflow auto hbe */
+    overflow: auto;
+}
+
+.area{
+    width: 600px;
+    height: 400px;
+    margin-top: 10px;
+
+}
