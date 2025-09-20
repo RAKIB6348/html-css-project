@@ -1,0 +1,30 @@
+.First{
+    border: 2px solid black;
+    height: 50px;
+    width: 40%;
+    /* margin-bottom: 10px; */
+
+    /* display: inline; */
+    /* display inline dile height and width kaj kore nah */
+
+    /* display: inline-block; */
+
+    visibility: hidden;
+}
+
+#Second{
+    border: 2px solid red;
+    height: 50px;
+    width: 40%;
+    /* display: inline; */
+    /* display inline dile height and width kaj kore nah */
+    /* display: inline-block; */
+}
+
+/* span{
+    display: block;
+    background-color: green;
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 10px;
+} */
