@@ -1,0 +1,33 @@
+/* p::first-letter{
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: aqua;
+} */
+
+
+
+/* p::first-line {
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: aqua;
+} */
+
+/* .heading::before{
+    content: 'Hello Pesudo';
+} */
+
+/* .heading::after {
+    content: 'Hello Pesudo';
+}
+
+
+.first::selection{
+    background-color: dodgerblue;
+} */
+
+#first::placeholder{
+    color: dodgerblue;
+    font-size: 30px;
+}
