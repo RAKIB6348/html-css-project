@@ -1,0 +1,33 @@
+.parent{
+    width: 600px;
+    border: 2px solid red;
+    margin: auto; /* middle a niye ase */
+}
+
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    /* position: relative; position use korle left-right or top-botton use korte hbe */
+    /* right: 50px; */
+    /* bottom: 50px */
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    display: inline-block;
+    position: absolute;
+    /* left: 50px; */
+    /* top: 50px; */
+}
+
+.three{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    display: inline-block;
+
+}
