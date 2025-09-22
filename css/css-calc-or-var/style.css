@@ -1,6 +1,6 @@
 :root{
     --initial-color:blue;
-    --buttoncolor: green; /* --buttoncolor variable */
+    --buttoncolor: aqua; /* --buttoncolor variable */
     --text-color : black;
 }
 
@@ -15,7 +15,7 @@
 
 button{
     background-color: var(--buttoncolor);
-    color: white;
+    color: var(--text-color);
     padding: 10px 30px;
     font-size: 25px;
     border-radius: 10px;
