@@ -1,0 +1,19 @@
+.one{
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    background-color: green;
+}
+
+.two {
+    width: 500px;
+    border: 2px solid violet;
+    float: right;
+    background-color: dodgerblue;
+}
+
+.three {
+    width: 500px;
+    border: 2px solid violet;
+    background-color: blueviolet;
+}
